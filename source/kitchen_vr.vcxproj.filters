@@ -74,6 +74,15 @@
     <ClCompile Include="Demo/Gui/GuiSample.cpp">
       <Filter>Framework\Objects</Filter>
     </ClCompile>
+    <ClCompile Include="ProductBaseSettings.cpp">
+      <Filter>Framework\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SteakSettings.cpp">
+      <Filter>Framework\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlateZone.cpp">
+      <Filter>Framework\Objects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppEditorLogic.h" />
@@ -152,6 +161,15 @@
       <Filter>Framework\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Demo/Gui/GuiSample.h">
+      <Filter>Framework\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductBaseSettings.h">
+      <Filter>Framework\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SteakSettings.h">
+      <Filter>Framework\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlateZone.h">
       <Filter>Framework\Objects</Filter>
     </ClInclude>
   </ItemGroup>

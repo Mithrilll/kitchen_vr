@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.16.1.0" name="SteakSettings" manual="1" parent_name="node_base">
+	<parameter name="raw_material" type="material"/>
+	<parameter name="prepared_material" type="material"/>
+	<parameter name="burnt_material" type="material"/>
+	<parameter name="cooking_time" type="float">0</parameter>
+</property>

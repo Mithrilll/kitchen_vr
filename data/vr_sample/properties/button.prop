@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<property version="2.16.1.0" name="button" parent_name="vr_object" manual="1">
-	<parameter name="button_text" title="Text Object" type="node">0</parameter>
-	<parameter name="text_up_speed" title="Text Up Speed" type="float">0.2</parameter>
+<property version="2.16.1.0" name="button" manual="1" parent_name="node_base">
+	<parameter name="button_text" type="node">0</parameter>
+	<parameter name="text_up_speed" type="float">0.2</parameter>
+	<parameter name="plate" type="node">0</parameter>
 </property>

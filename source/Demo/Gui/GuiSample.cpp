@@ -52,7 +52,7 @@ void GuiSample::init()
 	int x = 16;
 
 	// toggle button
-	add_button(toggle, x, 16, MakeCallback(this, &GuiSample::toggle_clicked), "Press me!", 2.0f);
+	//add_button(toggle, x, 16, MakeCallback(this, &GuiSample::toggle_clicked), "Press me!", 2.0f);
 
 
 	add_button(quit, x, 64, MakeCallback(this, &GuiSample::quit_clicked), "Quit", 2.0f);
@@ -149,7 +149,7 @@ void GuiSample::init()
 	} else
 	{
 		// Tell End-User that Mixed Reality is not avaliable
-		mr_not_avaliable = WidgetLabel::create(gui, "Mixed Reality is unavaliable!\nVarjo plugin not loaded");
+		mr_not_avaliable = WidgetLabel::create(gui, "");
 		mr_not_avaliable->setFontSize(32);
 		mr_not_avaliable->setPosition(x, 192);
 		gui->addChild(mr_not_avaliable, Gui::ALIGN_OVERLAP);
@@ -219,11 +219,6 @@ void GuiSample::shutdown()
 {
 	if (!gui)
 		return;
-
-	if (background)
-		gui->removeChild(background);
-	gui->removeChild(toggle);
-	window->removeChild(button);
 }
 
 void GuiSample::prepare_environment(bool enabled)

@@ -11,7 +11,7 @@ public:
 
 	// property
 	PROP_NAME("switch");
-	PROP_AUTOSAVE(0);
+	//PROP_AUTOSAVE(0);
 
 	// parameters
 	PROP_PARAM(Toggle, play_pingpong, 0);	// play_pingpong - play "ping-pong" animation (off_pos -> on_pos -> off_pos)
