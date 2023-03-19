@@ -68,6 +68,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PlateZone.cpp" />
+    <ClCompile Include="ProductBaseSettings.cpp" />
+    <ClCompile Include="SteakSettings.cpp" />
     <ClCompile Include="vr_sample.cpp" />
     <ClCompile Include="AppSystemLogic.cpp" />
     <ClCompile Include="AppWorldLogic.cpp" />
@@ -125,6 +128,9 @@
     <ClInclude Include="Demo/Gui/GuiSample.h" />
     <ClInclude Include="Demo/Objects/ObjButton.h" />
     <ClInclude Include="Demo/Objects/ObjLaserPointer.h" />
+    <ClInclude Include="PlateZone.h" />
+    <ClInclude Include="ProductBaseSettings.h" />
+    <ClInclude Include="SteakSettings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

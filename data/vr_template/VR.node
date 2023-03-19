@@ -24,6 +24,7 @@
 					<parameter name="oculus_controller_0">238529386</parameter>
 					<parameter name="oculus_controller_1">2080365445</parameter>
 					<parameter name="oculus_obstacles">1953853657</parameter>
+					<parameter name="throw_force">0</parameter>
 					<parameter name="ray_intersection_mask">0x3</parameter>
 					<parameter name="teleportation_mask">0x2</parameter>
 					<parameter name="teleport_allowed_marker">1991694643</parameter>
