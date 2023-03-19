@@ -347,3 +347,10 @@ healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
+
+# Unigine ignore
+.thumbnails/
+data/.runtimes/
+data/.thumbnails/
+data/.cache_textures/
+data/.editor2/
