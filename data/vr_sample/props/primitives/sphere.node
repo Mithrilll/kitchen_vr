@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="1647123740" name="sphere">
+		<mesh_name>guid://23bd74da9bb6f8a81d9d99e1aeedb5c9a747458a</mesh_name>
+		<surface name="sphere_mat" lighting_mode="0" physics_friction="1" physics_restitution="1" material="ebdbd7378e47a573cc3484a02a6bdc11a2c5f17c"/>
+		<body type="BodyRigid" id="1918418812" frozen="0">
+			<shape type="ShapeSphere" id="229071714">
+				<radius>0.0500000082</radius>
+			</shape>
+		</body>
+		<properties>
+			<property parent="60e5d2c8e421b4a67909e20938d5d9d8935a2fe2" guid="ec287645e65972e0ca9f08bfbea57f1244399349"/>
+		</properties>
+		<transform>1.0000001 -6.8212103e-13 -3.4770683e-06 0.0 -7.9580786e-13 1.0000001 -4.3463353e-07 0.0 3.477068e-06 4.3463351e-07 1.0000001 0.0 4.1723251e-07 4.4703484e-08 -0.011654079 1.0</transform>
+	</node>
+</nodes>

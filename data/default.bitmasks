@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bit_mask_names>
+	<intersection>
+		<name index="0">ray intersection</name>
+		<name index="1">teleport mask</name>
+	</intersection>
+</bit_mask_names>

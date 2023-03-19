@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="NodeDummy" id="1283611792" name="group">
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 1 0.0 -0.0017271042 -0.1583958 0.027351975 1.0</transform>
+		<node type="ObjectMeshStatic" id="435909193" name="button">
+			<mesh_name>guid://75350f762ade2aabfd454ca852a021f48e149f10</mesh_name>
+			<surface name="button_mat" lighting_mode="0" physics_friction="1" physics_restitution="1" material="152c435e75d6ef60e1df8cbe24f612c42b50be6e"/>
+			<transform>0.99999976 -1.132488e-06 0 0.0 1.132488e-06 0.99999976 0 0.0 0 0 1 0.0 0.001727134 0.15839578 -0.027351856 1.0</transform>
+			<node type="ObjectMeshStatic" id="1724557187" name="button">
+				<mesh_name>guid://2ccc6e371864baba27a45acd8f5512e81a318290</mesh_name>
+				<surface name="button_mat" lighting_mode="0" physics_friction="1" physics_restitution="1" material="152c435e75d6ef60e1df8cbe24f612c42b50be6e"/>
+				<properties>
+					<property parent="7b7fcc78d6cd1507925b769b1386ced3683f99c7" guid="78cd793f145435920d4fd7c9cc17fe940589d8e3">
+						<parameter name="button_text">252642279</parameter>
+					</property>
+					<property parent="01ba7992f85de477e8e630428eb5ed14769f9155" guid="9f0468e64fe9eb0d733c1108af0d00c761d6477a">
+						<parameter name="play_pingpong">1</parameter>
+						<parameter name="animation_duration">0.300000012</parameter>
+						<parameter name="disable_position">0 0 0.0540000014</parameter>
+						<parameter name="enable_position">0 0 0.0309999995</parameter>
+						<parameter name="change_rotation">0</parameter>
+					</property>
+				</properties>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 -2.3752718e-09 0.054339882 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectText" id="252642279" name="BoomText">
+			<font_name>guid://671a9d3da0f30578b529fb38d7e2f421f82fa096</font_name>
+			<text>BOOM!!!</text>
+			<font_outline>1</font_outline>
+			<text_wrap_width>0</text_wrap_width>
+			<surface name="text" physics_friction="1" physics_restitution="1" material="196c349704185e581025cee22b1fe0d75cb85e73" lighting_mode="0"/>
+			<transform>-0.99999988 1.1046699e-06 0 0.0 -3.9032273e-07 -0.35333875 0.93549436 0.0 1.0334124e-06 0.93549424 0.35333869 0.0 0.13368958 -0.17066456 0.042440891 1.0</transform>
+		</node>
+	</node>
+</nodes>

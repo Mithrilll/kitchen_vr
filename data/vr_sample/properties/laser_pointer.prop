@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.16.1.0" name="laser_pointer" parent_name="vr_object" manual="1">
+	<parameter name="laser" title="Laser" type="node">0</parameter>
+	<parameter name="laser_ray" title="Laser Ray" type="node">0</parameter>
+	<parameter name="laser_hit" title="Laser Hit" type="node">0</parameter>
+	<parameter name="text" title="Text" type="node">0</parameter>
+</property>

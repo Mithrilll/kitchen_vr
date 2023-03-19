@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="1664682759" name="cylinder">
+		<mesh_name>guid://3e5c41588abf54d7ccf2ec4a82246f2136c8be0c</mesh_name>
+		<surface name="cylinder_mat" lighting_mode="0" physics_friction="1" physics_restitution="1" material="7028881e5062b70f344d72d5bb1636962184330e"/>
+		<body type="BodyRigid" id="1776737472" frozen="0">
+			<shape type="ShapeCylinder" id="2001172779">
+				<radius>0.0504389293</radius>
+				<height>0.100000001</height>
+			</shape>
+			<shape type="ShapeSphere" id="515557476">
+				<radius>0.0492146723</radius>
+			</shape>
+		</body>
+		<properties>
+			<property parent="60e5d2c8e421b4a67909e20938d5d9d8935a2fe2" guid="a04c399e5fb0d4654ae6fa808878abdf07d187b2"/>
+		</properties>
+		<transform>0.99999988 -4.9737992e-14 0 0.0 -2.908962e-11 0.99999988 3.0906021e-11 0.0 0 2.5536467e-11 1 0.0 -2.4490873e-08 1.4901161e-08 1.1920929e-07 1.0</transform>
+	</node>
+</nodes>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="485652689" name="laser_pointer">
+		<mesh_name>guid://b5c55422688a1e8698f4a6eb113fc82e21531841</mesh_name>
+		<surface name="laser_pointer_mat" physics_friction="1" physics_restitution="1" material="b142fbefd2e1aca687f321f44c0181c8f0f6aa7e"/>
+		<body type="BodyRigid" id="1117666890" frozen="0">
+			<shape type="ShapeCapsule" id="1474772978" transform="0.999999881 -2.50578816e-17 -1.30104261e-18 0 -8.67361738e-19 5.96046306e-08 0.999999702 0 -9.6021349e-17 -0.999999821 5.96046377e-08 0 -0.000550270604 -2.77977256e-06 0.00139461376 1">
+				<radius>0.025545273</radius>
+				<height>0.164722681</height>
+			</shape>
+			<shape type="ShapeSphere" id="506982359" transform="1 0 0 0 0 1 0 0 0 0 1 0 0 0.0700000003 0 1">
+				<radius>0.0199999996</radius>
+				<mass>0.00999999978</mass>
+			</shape>
+			<shape type="ShapeSphere" id="1222382463" transform="0.999999642 2.71050705e-20 1.16415308e-10 0 -2.71050705e-20 0.999999642 -3.15544625e-30 0 -1.16415336e-10 0 0.999999881 0 1.49011612e-08 -0.0700000003 8.43429007e-08 1">
+				<radius>0.0199999996</radius>
+				<mass>0.00999999978</mass>
+			</shape>
+		</body>
+		<properties>
+			<property parent="dbda08a48b6070b01d89fa98a0571a31f392132d" guid="f8364f4938e910148ea0bc63eb52f6664dc81a8d">
+				<parameter name="laser">329145534</parameter>
+				<parameter name="laser_ray">1659387311</parameter>
+				<parameter name="laser_hit">1356971253</parameter>
+				<parameter name="text">74514725</parameter>
+			</property>
+			<property parent="60e5d2c8e421b4a67909e20938d5d9d8935a2fe2" guid="81f17a8803cc5c47dd82ecfacaea9811dc98723c">
+				<parameter name="use_handy_pos">1</parameter>
+				<parameter name="handy_pos">0.400000006 0.400000006 0.100000001</parameter>
+				<parameter name="handy_rot_euler">0 -90 180</parameter>
+				<parameter name="handy_pos_vr">0 0 -0.0799999982</parameter>
+				<parameter name="handy_rot_euler_vr">-5 0 0</parameter>
+			</property>
+		</properties>
+		<transform>0.99999797 -8.046627e-07 0 0.0 8.9406967e-07 1.0000006 0 0.0 0 0 1.0000021 0.0 -2.9802322e-08 -0.063594908 -2.2053719e-06 1.0</transform>
+		<node type="ObjectMeshStatic" id="490848020" name="laser_pointer_button">
+			<mesh_name>guid://808b3c7a9eaf511c019ca8d0a878ba8f1e9bebb0</mesh_name>
+			<surface name="laser_pointer_mat" intersection="0" physics_friction="1" physics_restitution="1" material="b142fbefd2e1aca687f321f44c0181c8f0f6aa7e"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 9.3696162e-10 -0.024261782 0.014145635 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="329145534" name="laser">
+			<transform>0.99999905 4.4815351e-10 -1.4167745e-07 0.0 -4.9539267e-08 0.99999946 3.4552068e-07 0.0 1.4062971e-07 -3.4738332e-07 0.99999964 0.0 3.6379788e-11 0.095785312 2.9266535e-05 1.0</transform>
+			<node type="ObjectMeshStatic" id="1659387311" name="laser_ray">
+				<mesh_name>guid://3930d561089ee7d29b1c4399ae28679b15b8511a</mesh_name>
+				<surface name="laser_ray_mat" cast_shadow="0" cast_world_shadow="0" intersection="0" physics_friction="1" physics_restitution="1" material="b3b7f01f63d10f67a5d1e40663fc1ef1076d27cd"/>
+				<transform>0.050000079 3.7252879e-09 2.9108715e-11 0.0 3.81469e-06 75.000015 2.5928013e-05 0.0 1.1629808e-11 -8.5958725e-09 0.024999648 0.0 0 -0.01535511 -5.0547392e-08 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1356971253" name="laser_hit">
+				<reference>guid://81e8e9678e89cdbef1dad1ebdcb239f3aa99c185</reference>
+				<transform>0.99999875 3.2832759e-10 1.1641532e-09 0.0 -4.9582923e-08 0.99995875 3.4552068e-07 0.0 -2.0954758e-09 -3.4715049e-07 0.99999923 0.0 0 0 0 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

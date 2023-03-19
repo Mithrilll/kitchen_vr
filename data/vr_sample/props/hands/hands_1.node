@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshSkinned" id="1910279120" name="hands_1">
+		<mesh_name>guid://f84c396fd30718021f8df779920fba8422700413</mesh_name>
+		<fps_visible_camera>-1</fps_visible_camera>
+		<fps_visible_shadow>30</fps_visible_shadow>
+		<fps_invisible>0</fps_invisible>
+		<speed>30</speed>
+		<surface name="hands_mat" intersection="0" physics_friction="1" physics_restitution="1" material="1c281a7e3b547fc564deee60761b4e3fc1260692"/>
+		<properties>
+			<property parent="42dc126c359d8b30d74aa0599632ef2a8ec93052" guid="c64697de43351da5b50e32c00b20071f41eca9f2">
+				<parameter name="left_hand">
+					<parameter name="thumb">
+						<parameter name="last">24</parameter>
+						<parameter name="middle">23</parameter>
+						<parameter name="first">22</parameter>
+					</parameter>
+					<parameter name="index">
+						<parameter name="last">27</parameter>
+						<parameter name="middle">26</parameter>
+						<parameter name="first">25</parameter>
+					</parameter>
+					<parameter name="middle">
+						<parameter name="last">30</parameter>
+						<parameter name="middle">29</parameter>
+						<parameter name="first">28</parameter>
+					</parameter>
+					<parameter name="ring">
+						<parameter name="last">33</parameter>
+						<parameter name="middle">32</parameter>
+						<parameter name="first">31</parameter>
+					</parameter>
+					<parameter name="pinky">
+						<parameter name="last">36</parameter>
+						<parameter name="middle">35</parameter>
+						<parameter name="first">34</parameter>
+					</parameter>
+					<parameter name="wrist">21</parameter>
+					<parameter name="arm">20</parameter>
+					<parameter name="elbow">19</parameter>
+					<parameter name="invert_direction">1</parameter>
+				</parameter>
+				<parameter name="right_hand">
+					<parameter name="thumb">
+						<parameter name="last">6</parameter>
+						<parameter name="middle">5</parameter>
+						<parameter name="first">4</parameter>
+					</parameter>
+					<parameter name="index">
+						<parameter name="last">9</parameter>
+						<parameter name="middle">8</parameter>
+						<parameter name="first">7</parameter>
+					</parameter>
+					<parameter name="middle">
+						<parameter name="last">12</parameter>
+						<parameter name="middle">11</parameter>
+						<parameter name="first">10</parameter>
+					</parameter>
+					<parameter name="ring">
+						<parameter name="last">15</parameter>
+						<parameter name="middle">14</parameter>
+						<parameter name="first">13</parameter>
+					</parameter>
+					<parameter name="pinky">
+						<parameter name="last">18</parameter>
+						<parameter name="middle">17</parameter>
+						<parameter name="first">16</parameter>
+					</parameter>
+					<parameter name="wrist">3</parameter>
+					<parameter name="arm">2</parameter>
+					<parameter name="elbow">1</parameter>
+				</parameter>
+			</property>
+		</properties>
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

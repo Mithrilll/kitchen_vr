@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.16.1.0">
+	<node type="ObjectMeshStatic" id="1078186755" name="Cuboid">
+		<mesh_name>guid://fdc565cab6bd9aa12964f38c5845197bbd1b409e</mesh_name>
+		<surface name="box" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="0" shadow_mask="0x0" viewport_mask="0x0" physics_friction="1" physics_restitution="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 -0.050000001 -0.0099999998 1.0</transform>
+	</node>
+</nodes>
